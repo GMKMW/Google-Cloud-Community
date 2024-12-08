@@ -12,7 +12,3 @@ var Query = await FDB({})
 
 Note the FDB is synchronous, so the await applies to the get(), since we have a document or collection reference.
 Note that passing no parameters to FDB returns the default firestore.
-
-Sheets are separated by ///x3
-
-Now you can freely move between firestores and service accounts! Any questions, let us know.
